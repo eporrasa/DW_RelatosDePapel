@@ -1,0 +1,20 @@
+/* Ejemplo para el componente Cart */
+.cart {
+    position: fixed;
+    right: 20px;
+    top: 20px;
+    background: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.cart__item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.cart__remove-button {
+    color: red;
+    cursor: pointer;
+}
