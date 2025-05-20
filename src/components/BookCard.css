@@ -1,0 +1,66 @@
+
+.book-card {
+    --dark-100: #1a1a1a;
+    --light-100: #ffffff;
+
+    background: var(--dark-100);
+    padding: 1.25rem;
+    border-radius: 1rem;
+    box-shadow: inset 0 0 10px rgba(var(--light-100), 0.1);
+}
+
+.book-card__poster {
+    border-radius: 0.5rem;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 2/3; /* Para mantener proporción de posters */
+}
+
+.book-card__title {
+    color: white;
+    font-weight: 700;
+    font-size: 1rem;
+    /* Line clamp */
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    margin-top: 0.5rem;
+}
+
+.book-card__content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+.book-card__rating {
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+}
+
+.book-card__rating-icon {
+    width: 16px;
+    height: 16px;
+}
+
+.book-card__rating-value {
+    font-weight: bold;
+    font-size: 1rem; /* text-base */
+    color: white;
+}
+
+.book-card__meta {
+    font-size: 0.875rem; /* text-sm (14px) */
+    color: #e5e7eb; /* text-gray-100 */
+}
+
+.book-card__language {
+    text-transform: capitalize;
+    color: #e5e7eb;
+    font-weight: 500; /* font-medium */
+    font-size: 1rem;
+}

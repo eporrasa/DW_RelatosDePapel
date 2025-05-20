@@ -8,7 +8,7 @@ export const books = [
         paginas: 432,
         idioma: "Español",
         descripcion: "Novela del realismo mágico...",
-        portada: "/portadas/cien.jpg",
+        portada: "cien.jpg",
         precio: 150687,
         disponible: 15
     },
@@ -21,7 +21,7 @@ export const books = [
         paginas: 328,
         idioma: "Inglés",
         descripcion: "Distopía sobre vigilancia estatal...",
-        portada: "/portadas/1984.jpg",
+        portada: "1984.jpg",
         precio: 59987,
         disponible: 0
     },
@@ -34,7 +34,7 @@ export const books = [
         paginas: 96,
         idioma: "Francés",
         descripcion: "Fábula filosófica infantil...",
-        portada: "/portadas/principito.jpg",
+        portada: "principito.jpg",
         precio: 178687,
         disponible: 5
     },
@@ -47,7 +47,7 @@ export const books = [
         paginas: 1023,
         idioma: "Español",
         descripcion: "Clásico de la literatura española...",
-        portada: "/portadas/quijote.jpg",
+        portada: "quijote.jpg",
         precio: 278687,
         disponible: 44
     },
@@ -60,7 +60,7 @@ export const books = [
         paginas: 254,
         idioma: "Español",
         descripcion: "Inicio de la saga de magia...",
-        portada: "/portadas/hp1.jpg",
+        portada: "hp1.jpg",
         precio: 158737,
         disponible: 5
     },
